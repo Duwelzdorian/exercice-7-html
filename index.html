@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="fr">
+<link rel="stylesheet" href="style.css">
+
+<head>
+  <meta charset="utf-8">
+  <title>exercice-7-html</title>
+</head>
+
+<body>
+
+  <form method="post" action="traitement.php">
+    <fieldset id="section-1">
+      <legend id="section-A">Votre identité</legend>
+      <label for="Nom">1. Nom</label>
+      <input type="text" name="Nom" value="Nom" autofocus><br>
+      <label for="Prénom">2. Prénom :</label>
+      <input type="text" name="Prénom" value="Prénom"><br>
+      <label for="Adresse mail">3. Adresse mail :</label>
+      <input type="text" name="mail" value="Adresse mail">
+    </fieldset>
+    <fieldset id="section-2">
+      <legend id="section-B">Adresse de livraison</legend>
+      <label for="Adresse">1. Adresse : </label>
+      <textarea name="Adresse" id="Adresse" rows="5" cols="20"></textarea><br>
+      <label for="Code postal">2. Code postal :</label>
+      <input type="text" name="Code postal" value="Code postal"><br>
+      <label for="Ville">3. Ville :</label>
+      <input type="text" name="Ville" value="Ville">
+    </fieldset>
+    <fieldset id="section-3">
+      <legend id="section-C">Informations de réglement</legend>
+      1. Type de carte bancaire :<br>
+      <input type="radio" name="type de carte" value="VISA" id="VISA">
+      <label for="VISA"> VISA </label><br>
+      <input type="radio" name="type de carte" value="Mastercard" id="Mastercard">
+      <label for="Mastercard"> Mastercard </label><br>
+      <label for="Code postal">2. Numéro de carte :</label>
+      <input type="text" name="Numéro de carte" value="Numéro de carte"><br>
+      <label for="Ville">3. Code de sécurité :</label>
+      <input type="text" name="Code de sécurité" value="Code de sécurité"><br>
+      <label for="Ville">3. Nom du titulaire :</label>
+      <input type="text" name="Nom du titulaire" value="Nom du titulaire"><br>
+    </fieldset>
+    <input type="submit" value="J'achète">
+
+  </form>
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>

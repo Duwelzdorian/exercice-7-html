@@ -1,0 +1,37 @@
+#section-1 {
+  background-color: #2574a9;
+  padding: 20px 0px 25px 25px;
+}
+
+#section-2 {
+  background-color: #9a12b3;
+  padding: 20px 0px 25px 25px;
+}
+
+#section-3 {
+  background-color: #db0a5b;
+  padding: 20px 0px 25px 25px;
+}
+
+#section-A {
+  margin-bottom: 15px;
+  background-color: #2574a9;
+}
+
+#section-B {
+  margin-bottom: 15px;
+  background-color: #9a12b3;
+}
+
+#section-C {
+  margin-bottom: 15px;
+  background-color: #db0a5b;
+}
+
+#VISA{
+margin-left: 70px;
+}
+
+#Mastercard{
+margin-left: 70px;
+}
